@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+* {
+    border:0;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Patua One', cursive;
+}
+body{
+    background:rgb(34, 34, 34);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+}
+.bg-blck {
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+}
+.navbar {
+    display: flex;
+    justify-content:space-between;
+}
+#shareit {
+    color: #ff6319;
+    font-family: 'Inconsolata', monospace;
+    margin: 10px;
+}
+#shareit:hover {
+    cursor:pointer !important;
+}
+.header-1px {
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    color:  #ff6319;
+    margin-bottom: 2%;
+}
+.header-2px {
+    letter-spacing: 2px;
+    color:  #ff6319;
+    margin-bottom: 5%;
+}
+.input {
+    border: 3px solid; 
+    border-color: #ff6319;
+    padding: 3% 2%;
+    width: 50%;
+    color: #ff6319;
+    border-radius: 24px ;
+    transition: 0.5s;
+    font-size: 0.875rem;
+}
+.input:focus {
+    border:rgb(46, 133, 184) 3px solid;
+    width: 65%;
+    color:rgb(46, 133, 184)
+}
+.link-button {
+    font-size: 1.25rem;
+    border:3px solid;
+    border-color: #ff6319;
+    color: #ff6319;
+    padding: 3% 6%;
+    border-radius: 24px;
+    transition: 0.5s;
+    cursor: pointer; 
+}
+.link-button:hover {
+    background:#ff6319;
+    color:whitesmoke;
+}
+.btn {
+    font-size: 1.25rem;
+    border:3px solid;
+    border-color: #ff6319;
+    color: #ff6319;
+    padding: 3% 6%;
+    border-radius: 24px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btn:hover{
+    background:#ff6319;
+    color:whitesmoke;
+}
+.account {
+    position: absolute;
+    right: 25px;
+    text-align: center;
+    width: 170px;
+    height: 85px;
+    border: 1px solid rgb(104, 103, 103);
+    border-radius: 7px;
+    background-color: #383838;
+}
+.account ul {
+    list-style: none;
+}
+#nav-log {
+    float: left;
+    width: 60px;
+    font-size: 1rem;
+    background-color: rgb(209, 209, 209);
+    color: #ff6319;
+    border-color: #ff6319;
+    padding: 3% 4%;
+    margin-right: 40px;
+    transition: none;
+}
+#nav-log:hover {
+    background-color: rgb(255, 255, 255);
+}
+#nav-reg {
+    float: right;
+    font-size: 1rem;
+    width: 60px;
+    background-color: rgb(0, 0, 0);
+    border-color: #ff6319;
+    color: #ff6319;
+    margin-right: 120px;
+    padding: 2% 4%;
+    transition: none;
+}
+#nav-reg:hover {
+    background-color: rgb(34, 34, 34);
+}

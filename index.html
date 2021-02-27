@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="assets/css/style.css" id="theme">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <style media="(max-width: 768px)">
+        #shareit {
+            font-size: 1em;
+            margin-left: 5px;
+        }
+
+        #searchbox {
+            width: 50%;
+        }
+
+        #nav-log {
+            display: none;
+        }
+
+        #nav-reg {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="bg-blck">
+        <div class="nav-container">
+            <nav class="navbar">
+                <a id="shareit" href="index.html">
+                    <h1>ShareIt</h1>
+                </a>
+                <div class="search-box">
+                    <label for="search"><i class="fas fa-search"></i></label>
+                    <input id="search" type="text" placeholder="Search">
+                </div>
+
+                <ul>
+                    <li class="nav-btn"><a class="link-button" id="nav-log" href="login.html">Log In</a></li>
+                    <li class="nav-btn"><a class="link-button" id="nav-reg" href="register.html">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <button id="toggle-btn">
+        <i id="toggle-icon" class="fa fa-user"></i>
+        <i class="fas fa-caret-down"></i>
+    </button>
+    <div class="account" style="display: none;">
+        <ul>
+            <li id="night-mode">Night mode</li>
+            <li><a id="toggle-nav-log" href="login.html"><i id="sign-icon" class="fas fa-sign-in-alt"></i> Log In/Sign
+                    Up</a></li>
+        </ul>
+
+        <button><i id="night-mode-icon" class="fas fa-toggle-on"></i></button>
+    </div>
+    
+    <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>
